@@ -1,13 +1,16 @@
-*.js
-*.d.ts
 node_modules
-node_modules/
+.env
+.env.local
+.next
+/common
 
-# CDK asset staging directory
-.cdk.staging
-cdk.out
-cdk.out/
+# ignore google cloud relavent files
+infra
+infra/
+infra/k8s
+infra/k8s/
+client/api/build-client.js
+# *.yaml
+infra/k8s/client-depl.yaml
 .DS_Store
-
-wordpress-lab/README.md
-wordpress-lab/README
+.vscode
